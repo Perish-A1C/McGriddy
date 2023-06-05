@@ -4,7 +4,7 @@ import { PrismaService } from './prisma.service';
 @Injectable()
 export class AppService {
   constructor(private prisma: PrismaService) {}
-  getGriddy(): string {
+  getMcGriddy(): string {
     return 'McGriddy';
   }
 }
