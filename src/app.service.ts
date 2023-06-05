@@ -5,7 +5,6 @@ import { PrismaService } from './prisma.service';
 export class AppService {
   constructor(private prisma: PrismaService) {}
   getGriddy(): string {
-    return this.
+    return 'McGriddy';
   }
-
 }
